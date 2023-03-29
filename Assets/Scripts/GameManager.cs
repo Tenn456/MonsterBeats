@@ -15,13 +15,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        theMusic.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!startPlaying)
+        
+
+        /*if(!startPlaying)
         {
             if(Input.anyKeyDown)
             {
@@ -30,6 +32,6 @@ public class GameManager : MonoBehaviour
 
                 theMusic.Play();
             }
-        }
+        }*/
     }
 }
